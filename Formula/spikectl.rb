@@ -1,28 +1,28 @@
 class Spikectl < Formula
   desc "Command-line tool of the Nix release spike"
   homepage "https://github.com/anverse/spike-nix-release"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.0/spikectl_0.1.0_darwin_arm64.tar.gz"
-      sha256 "23b940ff98c391c9fcc21db09f9f55697410e01878e8056064606d663ca3f071"
+      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.1/spikectl_0.1.1_darwin_arm64.tar.gz"
+      sha256 "c331e5c95c2705ff0774e3864cd284d6d872f997cbfe8db4a3223539f81c2d08"
     end
     on_intel do
-      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.0/spikectl_0.1.0_darwin_amd64.tar.gz"
-      sha256 "d49c2393330bd8dcd0cbe1177d4f0c363d8e78d418575fcc3b5822b16e836c67"
+      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.1/spikectl_0.1.1_darwin_amd64.tar.gz"
+      sha256 "0f16e49a83e03e74d69de9fc8efb4c2ea5b20b073750670b72ade1c445217e23"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.0/spikectl_0.1.0_linux_arm64.tar.gz"
-      sha256 "78c6ce53c910c2dba88a19b1b8c02bba6fc1d61e8c687049b911f6db2dfd2953"
+      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.1/spikectl_0.1.1_linux_arm64.tar.gz"
+      sha256 "131f90ef6438752fc2c8d08f56477209420cc396e6d2c5bb52f29e503c309ce4"
     end
     on_intel do
-      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.0/spikectl_0.1.0_linux_amd64.tar.gz"
-      sha256 "201d6f0e14c37dda4760e6ef0b370366f30f6227adbb1eeb48b4845ade67afad"
+      url "https://github.com/anverse/spike-nix-release/releases/download/spikectl/v0.1.1/spikectl_0.1.1_linux_amd64.tar.gz"
+      sha256 "262871ef9001be5be453bf14d2492bf4bd08c96c3bd6e7c8114edbdcad7e4ccc"
     end
   end
 
